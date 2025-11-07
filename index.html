@@ -1071,7 +1071,28 @@
   <!-- Page-wrapper-End -->
 
   <!-- Icon -->
+  <script>
+    window.addEventListener('scroll', function() {
+      if (window.innerWidth <= 768) {
+        const footer = document.querySelector('footer');
+        const waButton = document.querySelector('.whatsapp-float');
+        const footerTop = footer.getBoundingClientRect().top;
+        const windowHeight = window.innerHeight;
 
+        if (footerTop < windowHeight - 100) {
+          waButton.style.bottom = '90px'; // naik kalau footer kelihatan
+        } else {
+          waButton.style.bottom = '20px'; // posisi normal
+        }
+      } else {
+        // reset posisi untuk desktop
+        const waButton = document.querySelector('.whatsapp-float');
+        waButton.style.bottom = '20px';
+      }
+    });
+
+
+  </script>
   <!-- Jquery-js-Link -->
   <script src="js/jquery.js"></script>
   <!-- owl-js-Link -->

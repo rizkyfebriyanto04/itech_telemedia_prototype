@@ -2115,6 +2115,22 @@ footer .bottom_footer .developer_text a {
     z-index: -1;
 }
 
+/* Responsif – geser tombol WhatsApp ke atas di layar kecil */
+@media screen and (max-width: 768px) {
+  .whatsapp-float {
+    bottom: 80px; /* naik 60px dari posisi aslinya */
+    right: 20px;
+  }
+}
+
+/* Kalau mau lebih tinggi di layar super kecil */
+@media screen and (max-width: 480px) {
+  .whatsapp-float {
+    bottom: 90px; /* naik sedikit lebih tinggi */
+  }
+}
+
+
 @keyframes pulse {
     0% { transform: scale(1); opacity: .7; box-shadow: 0 0 0 0 rgba(37,211,102,0.35); }
     70% { transform: scale(1.8); opacity: 0; box-shadow: 0 0 0 14px rgba(37,211,102,0); }
