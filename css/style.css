@@ -137,10 +137,10 @@
 
 :root {
     --light-purple: #f5f5f5;      /* latar lembut, sangat terang */
-    --purple: #E75168;            /* warna utama */
+    --purple: #E32636;            /* warna utama */
     --bg-purple: #ffffff;         /* background atau hover lembut */
     --dark-purple: #363535;       /* versi gelap, misal hover tombol */
-    --body-text-purple: #5A2C34;  /* warna teks yang tetap senada */
+    --body-text-purple: #a01e29;  /* warna teks yang tetap senada */
     --text-white: #ffffff;
     --bg-white: #ffffff;
     --slider-dots-color: #f7d0d7; /* lembut, masih turunan pink */
@@ -432,7 +432,7 @@ header.fixed .navbar {
 .navbar {
     padding-left: 0;
     padding-right: 0;
-    padding-top: 35px;
+    padding-top: 20px;
 }
 
 .navbar-expand-lg .navbar-nav {
@@ -480,33 +480,6 @@ header.fixed .navbar {
 .navbar-expand-lg .navbar-nav .nav-link.dark_btn::after  {  
   animation: pulse-pink-small-sm 3.5s infinite;
 }
-
-/* Animation baru pakai #E75168 */
-
-@keyframes pulse-pink-medium-sm {
-  0% {
-    box-shadow: 0 0 0 0 rgba(231, 81, 104, 0.6);
-  }
-  70% {
-    box-shadow: 0 0 0 8px rgba(231, 81, 104, 0);
-  }
-  100% {
-    box-shadow: 0 0 0 0 rgba(231, 81, 104, 0);
-  }
-}
-
-@keyframes pulse-pink-small-sm {
-  0% {
-    box-shadow: 0 0 0 0 rgba(231, 81, 104, 0.8);
-  }
-  70% {
-    box-shadow: 0 0 0 4px rgba(231, 81, 104, 0);
-  }
-  100% {
-    box-shadow: 0 0 0 0 rgba(231, 81, 104, 0);
-  }
-}
-
 
 .navbar-brand img {
     width: 250px;
@@ -891,7 +864,7 @@ header.fixed .navbar {
     margin-top: 120px;
     padding-top: 60px;
     padding-bottom: 20px;
-    box-shadow: 0px 4px 30px #ec92a0;
+    box-shadow: 0px 4px 30px #E32636;
 }
 
 /* features section image */
@@ -1908,7 +1881,7 @@ footer {
 }
 
 footer .top_footer {
-    background-color: #E75168;
+    background-color: #E32636;
     padding: 180px 0 60px 0;
     position: relative;
     overflow: hidden;
@@ -1986,7 +1959,7 @@ footer .app_btn li:last-child {
 }
 
 footer .bottom_footer {
-    background-color: #e75168;
+    background-color: #E32636;
 }
 
 /* footer heading and text colors variable */
@@ -2502,7 +2475,7 @@ footer .top_footer .anim_line span:nth-child(2) {
 }
 
 header.fix_style.white_header {
-    background-color: #E75168;
+    background-color: #E32636;
 }
 
 
@@ -3578,6 +3551,32 @@ header.fix_style.white_header {
 
 .map_section {
     margin: 50px 0;
+}
+
+/* Animation baru pakai #E75168 */
+
+@keyframes pulse-pink-medium-sm {
+  0% {
+    box-shadow: 0 0 0 0 rgba(231, 81, 104, 0.6);
+  }
+  70% {
+    box-shadow: 0 0 0 8px rgba(231, 81, 104, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(231, 81, 104, 0);
+  }
+}
+
+@keyframes pulse-pink-small-sm {
+  0% {
+    box-shadow: 0 0 0 0 rgba(231, 81, 104, 0.8);
+  }
+  70% {
+    box-shadow: 0 0 0 4px rgba(231, 81, 104, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(231, 81, 104, 0);
+  }
 }
 
 
