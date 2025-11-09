@@ -1512,13 +1512,17 @@ iframe#youtubevideo {
     background-color: var(--bg-white);
     min-height: 700px;
     border-radius: 12px;
-    padding-top: 60px;
+    padding-top: 10px;
     margin-bottom: 40px;
     box-shadow: 0px 4px 30px #EDE9FE;
 }
 
 .pricing_section .pricing_pannel .pricing_block.highlited_block {
     background-color: var(--purple);
+}
+
+.pricing_section .pricing_pannel .pricing_block .feature_img img{
+    padding-top: -290px;
 }
 
 .pricing_section .pricing_pannel .pricing_block.highlited_block p,
